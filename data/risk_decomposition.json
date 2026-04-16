@@ -1,0 +1,92 @@
+{
+  "Liquidity Risk": {
+    "score": 0.2222,
+    "percentage": 25.8,
+    "features": [
+      {
+        "feature": "cash_flow_ratio",
+        "importance": 0.15555555555555556
+      },
+      {
+        "feature": "working_capital_to_total_assets",
+        "importance": 0.03535353535353536
+      },
+      {
+        "feature": "current_ratio",
+        "importance": 0.03131313131313133
+      }
+    ]
+  },
+  "Leverage Risk": {
+    "score": 0.3732,
+    "percentage": 43.4,
+    "features": [
+      {
+        "feature": "equity_to_total_liabilities",
+        "importance": 0.1898989898989899
+      },
+      {
+        "feature": "interest_coverage_ratio",
+        "importance": 0.12272727272727275
+      },
+      {
+        "feature": "debt_to_equity",
+        "importance": 0.06060606060606066
+      }
+    ]
+  },
+  "Profitability Risk": {
+    "score": 0.1581,
+    "percentage": 18.4,
+    "features": [
+      {
+        "feature": "gross_margin",
+        "importance": 0.054545454545454564
+      },
+      {
+        "feature": "return_on_assets",
+        "importance": 0.051010101010101026
+      },
+      {
+        "feature": "net_income_growth",
+        "importance": 0.04141414141414146
+      },
+      {
+        "feature": "operating_margin",
+        "importance": 0.011111111111111146
+      }
+    ]
+  },
+  "Efficiency Risk": {
+    "score": 0.002,
+    "percentage": 0.2,
+    "features": [
+      {
+        "feature": "asset_turnover",
+        "importance": 0.0272727272727273
+      },
+      {
+        "feature": "inventory_turnover",
+        "importance": -0.010101010101010091
+      },
+      {
+        "feature": "revenue_to_total_assets",
+        "importance": -0.015151515151515138
+      }
+    ]
+  },
+  "Solvency Risk": {
+    "score": 0.0692,
+    "percentage": 8.0,
+    "features": [
+      {
+        "feature": "ebit_to_total_assets",
+        "importance": 0.07979797979797983
+      },
+      {
+        "feature": "retained_earnings_to_total_assets",
+        "importance": -0.010606060606060582
+      }
+    ]
+  }
+}

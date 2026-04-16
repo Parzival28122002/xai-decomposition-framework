@@ -1,0 +1,10 @@
+{
+  "accuracy": 0.9,
+  "f1_score": 0.8925233972259837,
+  "model_type": "BiLSTM_Attention",
+  "num_features": 15,
+  "time_steps": 5,
+  "num_classes": 4,
+  "training_epochs": 20,
+  "best_val_accuracy": 0.8999999761581421
+}

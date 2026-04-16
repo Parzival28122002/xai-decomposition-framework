@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+firebase/serviceAccountKey.json
+test_model.py
+test_firebase.py
