@@ -1,0 +1,9 @@
+streamlit
+tensorflow
+pandas
+numpy
+plotly
+joblib
+scikit-learn
+firebase-admin
+pyrebase4
